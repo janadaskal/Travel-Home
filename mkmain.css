@@ -1,0 +1,220 @@
+body    {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;}
+        /* navigation bar */
+
+.head {
+    background-image: url(images/mkhome.jpg);
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.navmenu    {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0000ff;
+    font-size: 16pt;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}        
+
+.nav a {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size-adjust: 20px;   
+}
+.nav a:hover {color:#ffff00;}
+.home img {
+    min-height: 100vh;
+}
+.home h1 {
+    color: white;
+    font-size: 80px;
+   font-family: 'Montserrat', sans-serif;
+/*lower opacity of text*/
+    opacity: .35; 
+    padding-bottom: 180px;
+}
+.head h2 {
+    color: whitesmoke;
+    font-size: 70px;
+/*lower opacity of text*/
+    opacity: .75;
+    text-align:left;
+    padding-left: 20px;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 20px;
+    margin: 0%;
+}
+.home {
+    min-height: 100vh;
+    background-image: url(images/home.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+.nature{
+background-image: url(images/Ohrid1.jpg);
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.nature1 {
+    padding-left: 50px;
+}
+.slideshow img{ 
+    float:left;
+    text-align:{clear: left;}
+    padding-left: 40px;
+    padding-top: 5px;
+    border: 2px solid #006699;
+    border-collapse: collapse;
+    padding-right: 10px;
+    padding-bottom: 50px; 
+  }  
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+input[type=submit] {
+    background-color: #0000ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #0000ff;
+}
+.container {
+    border-radius: 5px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}           
+h3 {
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+.about1 {
+    text-align: left;
+    height: 260px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-size: cover;
+    color: black;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;   
+}
+.foodimg1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.topright {
+   position: absolute;
+    top: 8px;
+    right: 16px; 
+}
+.slide-wrapper img {
+    background-size: contain;
+    height: 260px;
+    width: 350px;
+}
+.slideshow {
+    overflow: hidden;
+    height: 260px;
+    width: 350px;
+    margin: 0 auto; 
+}
+
+.slide-wrapper { 
+    width: 1400px;
+    animation: slide 15s ease infinite;
+}
+
+.slide {
+    float:left;
+    height: 260px;
+    width: 350px;
+}
+
+@keyframes slide { 
+    20% {margin-left: 0px;}
+    30% {margin-left: -350px;}
+    50% {margin-left: -350px;}
+    60% {margin-left: -700px;}
+    70% {margin-left: -700px;}
+    80% {margin-left: -1050px;}
+    90% {margin-left: -1050px;}
+}
+.contact {
+    background-image: url(images/Ohrsunset.jpg);
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent {
+    display: flex;
+    margin:auto;
+    width: 80%;
+    padding-top: 20px;        
+}
+.child{ 
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+  }
+.border { 
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.child img {
+    border: 20px solid white;
+}
+.parentc{
+    display: flex;
+    margin:auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.childc{
+    flex:1;
+    padding-right: 20px;
+    
+}
